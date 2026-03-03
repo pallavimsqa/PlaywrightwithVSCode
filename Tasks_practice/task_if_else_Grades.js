@@ -21,14 +21,18 @@
 
 //}
 
+
+
+
 let grade;
 let score = "Pramod";
-
+ // edge cases
 if (typeof score !== "number") {
     console.log("Are you fool,why you are gving score as not a number");
-    return;
+    return; // if return is empty means exist the loop without any value
 }
 
+// edge cases
 if (score < 0 || score > 100) {
     console.log("Are you fool,why you are gving score <0 or. > 100");
     return;
@@ -48,4 +52,4 @@ else if (score >= 60) {
     grade = "F";
 }
 console.log("For the score", score, "Grade is ->", grade);
-console.log(`For the score ${score} "Grade is -> ", ${grade}`);
+console.log(`For the score ${score} "Grade is -> ", ${grade}`); // templasied (`write the statement ${variable}`)
