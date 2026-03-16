@@ -12,3 +12,4 @@ console.log(arr.slice(2));
 
 console.log(arr.slice(2,6));
 // end index is out of box then no error will shown but print all the elements from starting index  mentioned
+
