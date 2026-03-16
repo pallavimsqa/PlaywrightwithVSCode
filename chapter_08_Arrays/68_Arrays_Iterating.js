@@ -29,3 +29,14 @@ for (let [i,test] of tests.entries()){
     console.log(i ,test);
     // console.log(`${i} : ${test}); // literal template method
 }
+console.log("---------------------------");
+
+// for...in  - by default returns index of array elements
+
+let students = ["Pallavi", "Deeksha", "Jiya", "Dharani"];
+
+for (let student in students){
+    //console.log(student);
+    console.log(student, ":" , students[student]);
+}
+
