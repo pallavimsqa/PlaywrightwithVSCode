@@ -8,7 +8,17 @@ function greetByName(name){  // name is parameter
 }
 
 greetByName("Pallavi");
-greetByName("Pramod");
+greetByName("Pramod"); // Pramod is argument
 greetByName("Deeksha");
 greetByName("Jiya");
 greetByName("Dharani");
+
+function begger(money){
+    console.log("Thanks for", money,"rupees");
+}
+
+let returnMeSomething = begger(100);
+console.log(returnMeSomething);
+
+let name1 = greetByName("How are You");
+console.log(name1);
