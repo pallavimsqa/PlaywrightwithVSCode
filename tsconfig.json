@@ -39,10 +39,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "allowJs": true,
-    "checkJs": false,
-    "skipLibCheck": true
-  },
-  "include": ["**/*.js","**/*.ts"]
-
+    "skipLibCheck": true,
+  }
 }
